@@ -34,7 +34,7 @@ def _():
     import plotly.graph_objects as go
     from datetime import datetime
     import marimo as mo
-    return (mo,)
+    return (mo, pl, px, go, datetime)
 
 
 @app.cell(hide_code=True)
