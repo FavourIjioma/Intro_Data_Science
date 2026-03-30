@@ -119,7 +119,6 @@ def _(pl):
     return (sales,)
 
 
-# ✅ FIXED HERE (added pl)
 @app.cell
 def _(pl, sales):
     print(f"Number of transactions: {sales.shape[0]}")
